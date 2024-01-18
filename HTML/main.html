@@ -8,26 +8,33 @@
 </head>
 <body>
 
-  <header>
-    <img src="../images/profile.png" alt="Your Name">
-    <h1>Your Name</h1>
-    <p>Web Developer</p>
-  </header>
-
-  <section>
-    <h2>About Me</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
-  </section>
-
-  <section>
-    <h2>Skills</h2>
-    <div class="skills">
-      <div class="skill">HTML</div>
-      <div class="skill">CSS</div>
-      <div class="skill">JavaScript</div>
-      <!-- Add more skills as needed -->
+  <nav>
+    <div class="profile-image">
+      <img src="../images/profile.png" alt="Your Name">
     </div>
-  </section>
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <!-- Add more navigation items as needed -->
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <!-- Add more skills as needed -->
+      </div>
+    </section>
+  </main>
 
 </body>
 </html>
