@@ -12,6 +12,12 @@ body {
    padding: 1rem;
  }
  
+ img {
+   max-width: 100%;
+   border-radius: 50%;
+   margin-bottom: 10px;
+ }
+ 
  section {
    max-width: 800px;
    margin: 20px auto;
@@ -46,5 +52,21 @@ body {
    section {
      padding: 10px;
    }
+ }
+ 
+ /* Animation */
+ @keyframes fadeInUp {
+   from {
+     opacity: 0;
+     transform: translateY(20px);
+   }
+   to {
+     opacity: 1;
+     transform: translateY(0);
+   }
+ }
+ 
+ section {
+   animation: fadeInUp 1s ease-out;
  }
  
