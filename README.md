@@ -1,2 +1,2 @@
-### Personal Portfolio for Software Engineering (PIT) 
+### Personal Portfolio for Software Engineering (PIT for Finals) 
 
